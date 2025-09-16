@@ -150,7 +150,7 @@ span a{
     margin-right: 20px;
     font-size: 12px;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:971px) {
     #one{
         height: 0px;
         width: 0px;
