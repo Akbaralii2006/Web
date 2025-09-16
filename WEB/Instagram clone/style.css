@@ -18,9 +18,7 @@ img {
     align-items: flex-end;
     position: relative;
 }
-.cont{
-    
-}
+
 .lo img{
     height: 150px;
     filter: brightness(8);
@@ -152,70 +150,83 @@ span a{
     margin-right: 20px;
     font-size: 12px;
 }
-/* Tablet devices */
-@media (max-width: 768px) {
-    img {
-        height: 40vh;
-        float: none;
-        margin: 0 auto;
-        display: block;
+@media only screen and (max-width:431px) {
+    #one{
+        height: 0;
+        width: 0;
     }
+    .lo img{
+        height: 180px;
+        color: white;
+        /* margin-bottom: 100px; */
+        position: absolute;
+        right: -60px;
+        top: -100px;
+        
+    }
+    #form{
+        position: absolute;
+        right: 10px;
+        top: 150px;
+    }
+    input{
+        height: 25px;
+        width: 320px;
+        /* padding: 15px 45px 15px 45px; */
+        margin-top: 10px;
+    }
+   input::placeholder{
+    font-size: 14px;
 
-    .main {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 40px;
-    }
-
-    .main img {
-        margin: 0 auto;
-    }
-
-    .lo img {
-        height: 100px;
-        margin: 0 auto;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -10px;
-    }
-
-    input {
-        width: 90%;
-        max-width: 300px;
-    }
-
-    .btn {
-        width: 90%;
-        max-width: 300px;
-    }
-
-    footer {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 50px;
-    }
-
-    .copy select {
-        margin-right: 0;
-    }
 }
-
-/* Mobile devices */
-@media (max-width: 480px) {
-    img {
-        height: 30vh;
-    }
-
-    .lo img {
-        height: 80px;
-    }
-
-    input, .btn {
-        width: 95%;
-    }
-
-    .box {
+    .all{
+        display: flex;
         flex-direction: column;
-        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        height: 400px   ;
     }
+    .btn{
+        padding: 5px;
+        border-radius: 13px;
+    }
+    button{
+        font-size: 18px;
+    }
+    .divider{
+        font-size: 19px;
+        padding-top: 10px;
+    }
+    .log{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+   .for{
+    font-size: 16px;
+    padding-top: 10px;
+   }
+   .box{
+    padding-top: 250px;
+    font-size: 15px;
+   }
+   footer{
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   bottom: -30px;
+   right: -60px;
+   /* font-size: 20px; */
+   row-gap: 10px;
+   margin-left: 20px;
+   }
+   span a{
+    font-size: 14px;
+   }
+   .copy{
+    position: absolute;
+    bottom: -66px;
+    right: 50px;
+    font-size: 14px;
+   }
 }
