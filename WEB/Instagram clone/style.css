@@ -150,7 +150,7 @@ span a{
     margin-right: 20px;
     font-size: 12px;
 }
-@media only screen and (max-width:431px) {
+@media only screen and (max-width:479px) {
     #one{
         height: 0;
         width: 0;
@@ -229,4 +229,5 @@ span a{
     right: 50px;
     font-size: 14px;
    }
+
 }
