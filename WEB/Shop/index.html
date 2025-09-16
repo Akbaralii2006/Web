@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="/assest/images/logo.png" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Product</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <div class="head">
+        <img src="/assest/images/header.png" alt="">
+        <h3>Shop Page</h3>
+        <h4>Let's design the place you always imagined.</h4>
+    </div>
+    <div class="fiter-box">
+        <div class="filter">
+            <label for="Categories">CATEGORIES</label>
+            <select name="Categories" id="Categories">
+                <option>Living Room</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="price">PRICE</label>
+            <select name="price" id="price">
+                <option>All Price</option>
+            </select>
+        </div>
+        <div class="cont">
+            <div class="grid">
+                <div class="one">
+                    <img src="/assest/images/1.png" alt="">
+                    <div class="top">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="two">
+                    <img src="/assest/images/2.png" alt="">
+                    <div class="top2">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="three">
+                    <img src="/assest/images/3.png" alt="">
+                    <div class="top3">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="four">
+                    <img src="/assest/images/4.png" alt="">
+                    <div class="top4">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="five">
+                    <img src="/assest/images/5.png" alt="">
+                    <div class="top5">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="six">
+                    <img src="/assest/images/6.png" alt="">
+                    <div class="top6">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="seven">
+                    <img src="/assest/images/7.png" alt="">
+                    <div class="top7">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="eight">
+                    <img src="/assest/images/8.png" alt="">
+                    <div class="top8">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="nine">
+                    <img src="/assest/images/9.png" alt="">
+                    <div class="top9">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="ten">
+                    <img src="/assest/images/10.png" alt="">
+                    <div class="top10">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="eleven">
+                    <img src="/assest/images/11.png" alt="">
+                    <div class="top11">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+                <div class="twelve">
+                    <img src="/assest/images/12.png" alt="">
+                    <div class="top12">
+                        <span id="fi">NEW</span>
+                        <span id="se">-50%</span>
+                    </div>
+                    <div class="hide">
+                        <div class="like">
+                            <svg class="svg-inline--fa fa-heart" width="26px" aria-hidden="true" focusable="false"
+                                data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="click">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="fot">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>Loveseat Sofa</span>
+                        <span>$199.00</span>
+                    </div>
+                </div>
+            </div>
+            <button id="ce">Show more</button>
+            <div class="pic">
+                <img src="/assest/images/13.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    
+</body>
+
+</html>
