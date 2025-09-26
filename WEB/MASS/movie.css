@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);     
+}
+nav{
+    height: 70px;
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+/* background: linear-gradient(90deg, #ff6ec4, #7873f5); */
+
+}
+.pic img{
+    height: 150px;
+    margin-top: 35px;
+}
+nav ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      margin-right: 80px;
+}
+nav ul li{
+    padding: 50px;
+    color: rgb(247, 241, 241);
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+}
+nav ul li:hover{
+    color: rgb(63, 127, 210);
+    text-decoration: underline;
+}
+a:link{
+     color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(63, 127, 210);
+}
+.post{
+    position: relative;
+    height: 667px;
+    width: 100%;
+    overflow: hidden;
+}
+.post img{
+    height: 667px;
+    width: 100%; 
+    opacity: 0.50;
+    /* filter: sepia(0.6); */
+    /* filter: brightness(-1); */
+    object-fit: cover;
+}
+.box{
+    height: 667px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+}
+.post h1{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: 420px;
+    color: rgb(255, 0, 0);
+    /* text-shadow: 10px 10px 5px purple; */
+    font-size: 70px;
+   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+/* transition */
+    transform: translateY(100px);
+    opacity: 0;
+    animation: reveal 1s ease forwards;
+    animation-delay: 0.5s;
+    overflow: hidden;
+}
+@keyframes reveal{ 
+    0%{
+        filter:blur(20px);
+        opacity:0;
+        transform: translateY(100px);
+    }
+    100%{
+         filter:blur(0px);
+        opacity:1;
+        transform: translateY(50px);
+    }
+    
+}
+.post h3{
+      position: absolute;
+    z-index: 1;
+    top: 35%;
+    right: 530px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 20px;
+  /* transition */
+    transform: translateY(100px);
+    opacity: 0;
+    animation: reveal 1s ease forwards;
+    animation-delay: 0.5s;
+    overflow: hidden;
+}
+.curve{
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    border-radius: 250% 250% 0 0;
+    border-top: 4px solid rgb(241, 55, 55, 0.789);
+    /* background-color: rgb(0, 0, 0);\ */
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+/* content
+ */
+ /* Thriller */
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    font-size: 24px;
+    padding-top: 25px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.title1::before,
+.title1::after{
+    content: "";
+    flex: 10;
+    border-bottom: 1px solid white;
+}
+.cards{
+    height: 400px;
+    width: 100%;
+    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* padding-top: 80px; */
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+p:nth-last-child(2){
+    padding-right: 20px;
+}
+.card1{
+    height: 380px;
+    width: 250px;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card1 img{
+    height: 300px;
+    width: 250px;   
+    object-fit: cover;
+}
+.card2{
+    height: 380px;
+    width: 250px;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.card2 img{
+    height: 300px;
+    width: 250px;   
+    object-fit: cover;
+     /* object-position: left; */
+}
+
+.card3{
+    height: 380px;
+    width: 250px;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card3 img{
+      height: 300px;
+    width: 250px;   
+    object-fit: cover;
+     /* object-position: left 0.1px; */
+}
+.card4{
+    height: 380px;
+    width: 250px;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card4 img{
+      height: 300px;
+    width: 250px;   
+    object-fit: cover;
+     object-position: left 0.1px;
+}
+.card5{
+    height: 380px;
+    width: 250px;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card5 img{
+      height: 300px;
+    width: 250px;   
+    object-fit: cover;
+     object-position: left 0.1px;
+}
+.foot{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.foot:hover{
+    background: rgb(63, 127, 210);
+    height: 100%;
+}
+/* scale */
+.scale{
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+}
+.scale:hover{
+    transform: scale(1.05, 1.05);
+}
+@media only screen and (max-width: 1200px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+    }
+    .post{
+        height: auto;
+        width: auto;
+    }
+    .post{
+        height: auto;
+        width: auto;
+    }
+    nav{
+        height: 60px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 971px) {
+    nav ul li{
+        padding: 10px;
+        font-size: 12px;
+    }
+    nav ul{
+        margin-right: 10px;
+    }
+    .pic img{
+        height: 60px;
+        margin-top: 10px;
+    }
+    .post h1{
+        font-size: 35px;
+        /* margin: auto; */
+        top: 25%;
+        right: 8%;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+    .post h3{
+        font-size: 20px;
+        /* margin: auto; */
+        top: 30%;
+        right: 12%;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .curve{
+        margin-bottom: 110px;
+    }
+}

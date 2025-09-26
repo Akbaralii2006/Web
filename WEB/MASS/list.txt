@@ -1,0 +1,20 @@
+MOVIES
+Thriller:-The Dark Knight,Fight Club,Parasite,Forgotten,The Departed
+Action:-F1:the Movie,John Wick,Mad Max:Fury,Ne Zha 2,The Matrix	
+Sci-fi:-Avatar,The Martian,Inception,Interstellar,Mickey 17
+Horror:-The Conjuring 2,It,Train To Busan,The Wailing,The Host
+Comedy:-The Hangover,3 Idiots,The Dictator,Shaun Of the dead,Kung Fu Hustle
+
+ANIMES
+Shonen:-One Piece,Attack on Titan,Demon Slayer,Naruto,Death Note
+Seinen:-Vinland Saga,Erased,Berserk,Tomodachi Game,Vagabond
+Romance:-Your Name,Youe Lie in April,Kaguya-sama,Suzume,Dandadan
+Action:-Mob Psycho 100,Fullmetal Alchemist,Dragon Ball,One-Punch Man,Jujutsu Kaisen,
+Comedy:-Great Teacher Onizuka,Grand Blue,beelzebub,Gintama,Haikyuu
+
+Songs
+Pop:-Perfect,,Gangnam Style,APT,Bye Bye Bye,Timeless
+Hip-Hop:-Rap God,Fein,Body,Doja,Box
+Country:-7 Years.See You Agian,Die with a smile,End of beginning,Homage
+Phonk:-De Lacoste,Dia Delicia,Wake Up!,Faz ce Chicote,Automotivo Ritmado
+Anime:-We Are,The Rumbling,Again,Gurenge, we are not alone
